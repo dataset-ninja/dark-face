@@ -56,7 +56,19 @@ BLOGPOST: Optional[Union[str, List[str], Dict[str, str]]] = None
 REPOSITORY: Optional[Union[str, List[str], Dict[str, str]]] = None
 
 CITATION_URL: Optional[str] = "https://flyywh.github.io/CVPRW2019LowLight/"
-AUTHORS: Optional[List[str]] = ["Chen Wei", "Wenjing Wang", "Wenhan Yang", "Jiaying Liu and et al."]
+AUTHORS: Optional[List[str]] = [
+    "Wenhan Yang", "Ye Yuan", "Wenqi Ren", "Jiaying Liu", "Walter J. Scheirer", "Zhangyang Wang",
+    "Taiheng Zhang", "Qiaoyong Zhong", "Di Xie", "Shiliang Pu", "Yuqiang Zheng", "Yanyun Qu", 
+    "Yuhong Xie", "Liang Chen", "Zhonghao Li", "Chen Hong", "Hao Jiang", "Siyuan Yang", "Yan Liu", 
+    "Xiaochao Qu", "Pengfei Wan", "Shuai Zheng", "Minhui Zhong", "Taiyi Su", "Lingzhi He", 
+    "Yandong Guo", "Yao Zhao", "Zhenfeng Zhu", "Jinxiu Liang", "Jingwen Wang", "Tianyi Chen", 
+    "Yuhui Quan", "Yong Xu", "Bo Liu", "Xin Liu", "Qi Sun", "Tingyu Lin", "Xiaochuan Li", "Feng Lu", 
+    "Lin Gu", "Shengdi Zhou", "Cong Cao", "Shifeng Zhang", "Cheng Chi", "Chubin Zhuang", "Zhen Lei", 
+    "Stan Z. Li", "Shizheng Wang", "Ruizhe Liu", "Dong Yi", "Zheming Zuo", "Jianning Chi", "Huan Wang", 
+    "Kai Wang", "Yixiu Liu", "Xingyu Gao", "Zhenyu Chen", "Chang Guo", "Yongzhou Li", "Huicai Zhong", 
+    "Jing Huang", "Heng Guo", "Jianfei Yang", "Wenjuan Liao", "Jiangang Yang", "Liguo Zhou", 
+    "Mingyue Feng", "Likun Qin"
+]
 AUTHORS_CONTACTS: Optional[List[str]] = ["yangwenhan@pku.edu.com"]
 
 ORGANIZATION_NAME: Optional[Union[str, List[str]]] = ["Peking University"]
