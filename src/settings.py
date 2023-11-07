@@ -43,7 +43,7 @@ GITHUB_URL: str = "https://github.com/dataset-ninja/dark-face"
 ##################################
 ### * Optional after uploading ###
 ##################################
-DOWNLOAD_ORIGINAL_URL: Optional[Union[str, dict]] = ["https://flyywh.github.io/CVPRW2019LowLight/"]
+DOWNLOAD_ORIGINAL_URL: Optional[Union[str, dict]] = "https://flyywh.github.io/CVPRW2019LowLight/"
 # Optional link for downloading original dataset (e.g. "https://some.com/dataset/download")
 
 CLASS2COLOR: Optional[Dict[str, List[str]]] = None
